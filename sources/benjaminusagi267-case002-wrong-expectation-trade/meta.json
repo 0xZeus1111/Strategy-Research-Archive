@@ -1,0 +1,48 @@
+{
+  "source": "substack",
+  "source_url": "https://benjaminusagi267.substack.com/p/case002",
+  "title": "【复盘Case002】如何交易市场的错误预期？",
+  "author": {
+    "name": "本杰明乌萨奇",
+    "substack_profile": "https://substack.com/@1234475826"
+  },
+  "published_date": "2026-07-19",
+  "date_published_iso": "2026-07-19T01:37:06+00:00",
+  "date_modified_iso": "2026-07-19T01:37:06+00:00",
+  "fetched_at_local": "2026-07-19",
+  "is_accessible_for_free": true,
+  "content_type": [
+    "交易复盘",
+    "宏观交易",
+    "预期差交易",
+    "市场反应函数"
+  ],
+  "topic": "用 NQ 做空交易弱 CPI 后的传导预期错误，核心否决变量是 10 年与 30 年真实利率",
+  "archive": {
+    "page_html": "page.html",
+    "original_markdown": "original.md",
+    "assets": []
+  },
+  "case_summary": {
+    "case_id": "002",
+    "trade_prototype": "传导预期错误 / 旧反应函数失效",
+    "market_state": "久期压力高位再紧缩；短端放松、长端拒绝；信用稳定；非流动性危机",
+    "implied_chain": "弱 CPI -> 政策放松 -> 长期资金价格下降 -> NQ 估值扩张",
+    "break_point": "政策路径到长期资金价格之间",
+    "veto_variables": [
+      "10 年真实利率",
+      "30 年真实利率"
+    ],
+    "clean_expression": "做空 NQ，而非无差别做空 ES",
+    "main_execution_flaw": "外部意见未改变证据，却干扰确认仓；目标调整需要被定义为新决策"
+  },
+  "key_levels": {
+    "first_short_entry_nq": 30060,
+    "second_short_entry_nq": 30040,
+    "initial_target": 29700,
+    "reentry_nq": 29950,
+    "revised_target": 29000,
+    "manual_exit_nq": 28500,
+    "friday_close_nq": 28768.25
+  }
+}
