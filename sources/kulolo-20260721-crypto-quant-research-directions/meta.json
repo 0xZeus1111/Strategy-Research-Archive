@@ -1,0 +1,29 @@
+{
+  "title": "crypto从业者的量化研究方向",
+  "author": {
+    "name": "Kulolo",
+    "profile_url": "https://zhuanlan.zhihu.com/p/558577207"
+  },
+  "published_local": "2026-07-21 23:21",
+  "published_utc_source": "2026-07-21T15:21:13+0000",
+  "source_url": "https://telegra.ph/crypto从业者的量化研究方向-07-21",
+  "canonical_url": "https://telegra.ph/crypto从业者的量化研究方向-07-21",
+  "source_type": "telegraph_article",
+  "archive_files": [
+    "original.md",
+    "page.html",
+    "meta.json"
+  ],
+  "top_level_media_count": 0,
+  "content_type": "研究框架 / 行业观察 / crypto量化从业者面试复盘",
+  "main_topics": [
+    "高频策略",
+    "CTA趋势策略",
+    "机器学习策略",
+    "中性策略",
+    "套利策略",
+    "策略工业化",
+    "实盘与回测偏差"
+  ],
+  "notes": "作者基于招聘面试经验，观察 crypto 量化从业者研究方向集中在高频、CTA、机器学习、中性、网格和套利。文章重点批评规则 CTA 难以工业化、机器学习黑箱化、中性策略压力测试不足，以及传统期现和资金费率套利被专业团队压缩。"
+}
