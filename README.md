@@ -132,6 +132,9 @@
 - [`做市商库存报价系统：报价倾斜、点差扩张与散户逆价体验.md`](做市商库存报价系统：报价倾斜、点差扩张与散户逆价体验.md)
   - 总结 `bc1qDave` 对做市商库存报价系统的长文，重点拆解 `Inventory-based pricing`、`Quote Skew`、`Spread Widening`、小山寨中的逆价体验，以及评论区对 `q` 符号方向的质疑。
 
+- [`高频做市脚本结构：Basis Alpha、GLFT动态点差与库存风控.md`](高频做市脚本结构：Basis%20Alpha、GLFT动态点差与库存风控.md)
+  - 总结 `fxu_starr` 对高频做市策略脚本结构的拆解，重点整理 `market data -> feature bucket -> Basis alpha -> forecast midprice -> GLFT 动态 spread -> 库存倾斜 -> 订单 ID 映射 -> kill-switch -> 监控日志` 的工程链路。
+
 ## 事件驱动与新闻交易
 
 - [`新闻交易复盘：事件驱动下的方向判断、波动捕捉与BTC对冲思路.md`](新闻交易复盘：事件驱动下的方向判断、波动捕捉与BTC对冲思路.md)

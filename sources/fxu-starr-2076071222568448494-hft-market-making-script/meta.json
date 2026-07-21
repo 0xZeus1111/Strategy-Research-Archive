@@ -1,0 +1,30 @@
+{
+  "title": "高频做市策略脚本结构",
+  "author": {
+    "id": "1258269762",
+    "name": "FXUM- Starr Quants Lab",
+    "screenName": "fxu_starr"
+  },
+  "published_local": "2026-07-12 06:28",
+  "published_utc_source": "Sat Jul 11 22:28:45 +0000 2026",
+  "status_url": "https://x.com/fxu_starr/status/2076071222568448494",
+  "source_type": "x_long_post",
+  "tweet_id": "2076071222568448494",
+  "top_level_media_count": 0,
+  "metrics_at_capture": {
+    "likes": 16,
+    "retweets": 1,
+    "replies": 4,
+    "quotes": 1,
+    "views": 3458,
+    "bookmarks": 39
+  },
+  "notable_replies": [
+    {
+      "id": "2076142629079921132",
+      "author": "@Dogquant0",
+      "summary": "评论补充在 GLFT 中加入泊松过程，用于处理库存风险。"
+    }
+  ],
+  "notes": "主帖是关于高频做市脚本结构和开发模式的工程型内容，核心模块包括市场数据、bucket/bin 特征计算、Basis alpha、forecast midprice、GLFT 库存管理、动态 spread、订单 ID 映射、kill-switch 和监控日志。"
+}
