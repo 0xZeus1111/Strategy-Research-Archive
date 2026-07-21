@@ -1,0 +1,51 @@
+{
+  "title": "加密市场最浅的宝藏：RWA永续套利",
+  "author": {
+    "id": "730205023620071424",
+    "name": "Boywus",
+    "screenName": "Boywus"
+  },
+  "published_local": "2026-07-20 19:28",
+  "published_utc_source": "Mon Jul 20 11:28:01 +0000 2026",
+  "status_url": "https://x.com/Boywus/status/2079166433767108745",
+  "article_url": "http://x.com/i/article/2078010593697808384",
+  "source_type": "x_article_via_status",
+  "tweet_id": "2079166433767108745",
+  "top_level_media_count": 0,
+  "metrics_at_capture": {
+    "likes": 224,
+    "retweets": 35,
+    "replies": 18,
+    "quotes": 6,
+    "views": 62839,
+    "bookmarks": 372
+  },
+  "notable_replies": [
+    {
+      "id": "2079204583033987437",
+      "author": "@Boywus",
+      "summary": "作者回应热门美股 RWA 合约价差和资费交易时，盘中清仓比较好。"
+    },
+    {
+      "id": "2079193260162207832",
+      "author": "@Boywus",
+      "summary": "作者补充周末价差案例是 Bitget 合约与 Hyper 合约之间的价差，两边都是永续合约。"
+    },
+    {
+      "id": "2079304188920746262",
+      "author": "@XuhuiLuo",
+      "summary": "评论指出严格来说这更像价差交易，而不是无风险套利。"
+    },
+    {
+      "id": "2079423265513349539",
+      "author": "@Oliverkk789",
+      "summary": "评论指出交易中仍带方向风险，不应理解为纯套利。"
+    },
+    {
+      "id": "2079250034261213553",
+      "author": "@Boywus",
+      "summary": "作者回应海力士 ADR 溢价从 4% 扩大后的错过机会。"
+    }
+  ],
+  "notes": "顶层推文只包含 X Article 链接。正文讨论 RWA 永续套利：传统资产连续价格发现与加密永续规则约束之间的错配，具体案例包括美股周末指数恢复、原油换月与资金费率、海力士 ADR 溢价和多交易所费率差。"
+}
