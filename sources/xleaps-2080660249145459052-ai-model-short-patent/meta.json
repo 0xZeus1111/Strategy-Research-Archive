@@ -1,0 +1,41 @@
+{
+  "title": "大模型是专利期十个月的制药生意",
+  "author": {
+    "id": "732363",
+    "name": "Eric Xu (e/Mettā)",
+    "screenName": "xleaps"
+  },
+  "published_local": "2026-07-24 22:23",
+  "published_utc_source": "Fri Jul 24 14:23:54 +0000 2026",
+  "status_url": "https://x.com/xleaps/status/2080660249145459052?s=46",
+  "article_url": "http://x.com/i/article/2080423536217501698",
+  "source_type": "x_article_via_status",
+  "tweet_id": "2080660249145459052",
+  "top_level_media_count": 0,
+  "metrics_at_capture": {
+    "likes": 376,
+    "retweets": 88,
+    "replies": 14,
+    "quotes": 11,
+    "views": 82637,
+    "bookmarks": 388
+  },
+  "notable_replies": [
+    {
+      "id": "2080680735422206449",
+      "author": "@xleaps",
+      "summary": "作者同意推理算力约束，并补充开放权重可帮助解决模型训练出来后没有足够算力部署的问题。"
+    },
+    {
+      "id": "2080723183754481849",
+      "author": "@zhoujinjing09",
+      "summary": "评论指出大模型和药品不同，模型替代效应强且用户需求异质，中国模型的机会可能来自能力饱和和足够好。"
+    },
+    {
+      "id": "2081015327748460673",
+      "author": "@larryhaonlp",
+      "summary": "评论质疑两个纳什均衡的论证不够形式化，认为不同收益矩阵下可能存在其他均衡。"
+    }
+  ],
+  "notes": "X Article 讨论大模型产业的短定价权窗口：模型高价溢价大约只能维持数月至十个月，因此大模型公司类似专利期很短的制药公司。核心变量包括 GPU 回本周期、推理利润补贴训练、开放权重、竞品定价和中美模型差距压缩。"
+}
