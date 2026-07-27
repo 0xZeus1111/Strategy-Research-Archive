@@ -1,0 +1,29 @@
+{
+  "title": "半导体订单的金融化：AI需求、信用与数据中心融资",
+  "author": {
+    "id": "3314942552",
+    "name": "Manchurius Hao — Greeks.live首席赌狗",
+    "screenName": "AntonLaVay"
+  },
+  "published_local": "2026-07-27 23:20",
+  "published_utc_source": "Mon Jul 27 15:20:29 +0000 2026",
+  "status_url": "https://x.com/AntonLaVay/status/2081761651053756607",
+  "source_type": "x_long_post",
+  "tweet_id": "2081761651053756607",
+  "top_level_media_count": 0,
+  "metrics_at_capture": {
+    "likes": 60,
+    "retweets": 6,
+    "replies": 4,
+    "quotes": 0,
+    "views": 15285,
+    "bookmarks": 23
+  },
+  "quoted_tweet": {
+    "id": "2081745839651688804",
+    "author": "@WallStWolfdog",
+    "summary": "引用推文称刚开盘后继续加仓苹果，并认为未来很长时间苹果市值都会高于英伟达。"
+  },
+  "notable_replies": [],
+  "notes": "主帖讨论 AI 半导体基本面从需求直接传导转为金融化传导：AI 需求需要经由项目回报、长期利率、信用利差、债券和私人信贷、数据中心建设与通电能力，才最终兑现为 GPU 与 HBM 订单。"
+}
