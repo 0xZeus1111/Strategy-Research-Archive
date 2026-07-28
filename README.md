@@ -183,6 +183,9 @@
 - [`Polymarket双边做市复盘：NoArb配平、逆向选择与库存风险.md`](Polymarket双边做市复盘：NoArb配平、逆向选择与库存风险.md)
   - 总结 `CharneyAI` 在 BTC 15 分钟二元市场从吃单套利转向双边 maker 的实盘复盘，重点拆解 `NoArb` 只对等量配平库存成立、趋势订单流如何通过逆向选择制造单边裸仓，以及报价倾斜、库存上限、毒性监控与停止状态为何比挂单本身更重要。
 
+- [`Polymarket尾盘与低概率做市：0-5c价差、99.9c排队和profit_volume边际EV.md`](Polymarket尾盘与低概率做市：0-5c价差、99.9c排队和profit_volume边际EV.md)
+  - 合并 `predict_anon` 三条 Polymarket 微观结构推文，重点拆解 `profit / volume` 账户 edge 估算、`99.9c` 尾盘排队、`0-5c` 低概率做市、spread 与 LP 奖励的区别，以及结算源修正、毒性订单流和拥挤衰减如何抹掉小额重复收益。
+
 ## 量化学习与研究框架
 
 - [`2026年普通人入门量化交易：从概率到Polymarket的学习地图.md`](2026年普通人入门量化交易：从概率到Polymarket的学习地图.md)

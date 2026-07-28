@@ -1,0 +1,100 @@
+{
+  "title": "predict_anon Polymarket 低概率做市、尾盘排队与EV测算",
+  "source": "x",
+  "source_type": "x_multi_status_topic",
+  "author": {
+    "id": "1497805514176352257",
+    "name": "anon",
+    "screen_name": "predict_anon",
+    "verified": true
+  },
+  "tweets": [
+    {
+      "id": "2081569043149160849",
+      "url": "https://x.com/predict_anon/status/2081569043149160849",
+      "created_at_local": "2026-07-27 10:35",
+      "topic": "0-5c low probability maker and spread strategy",
+      "metrics_at_fetch": {
+        "likes": 231,
+        "retweets": 18,
+        "replies": 25,
+        "quotes": 1,
+        "views": 18992,
+        "bookmarks": 315
+      }
+    },
+    {
+      "id": "2081394000620368312",
+      "url": "https://x.com/predict_anon/status/2081394000620368312?s=20",
+      "created_at_local": "2026-07-26 22:59",
+      "topic": "sports 99.9c tail-end queue strategy after tick_size_change",
+      "metrics_at_fetch": {
+        "likes": 114,
+        "retweets": 15,
+        "replies": 18,
+        "quotes": 2,
+        "views": 51831,
+        "bookmarks": 158
+      },
+      "quoted_context": {
+        "author": "DataBasedBets",
+        "topic": "MLB score correction and prediction market tail-end losses"
+      }
+    },
+    {
+      "id": "2058553199620243850",
+      "url": "https://x.com/predict_anon/status/2058553199620243850?s=20",
+      "created_at_local": "2026-05-24 22:18",
+      "topic": "Polymarket account edge estimate via profit divided by volume",
+      "metrics_at_fetch": {
+        "likes": 63,
+        "retweets": 3,
+        "replies": 9,
+        "quotes": 0,
+        "views": 10954,
+        "bookmarks": 65
+      }
+    }
+  ],
+  "related_tweets": [
+    {
+      "id": "2081583193078341789",
+      "author": "predict_anon",
+      "type": "author_reply",
+      "note": "LP rewards were about 5% of income in the author's version; spread optimization was the main source."
+    },
+    {
+      "id": "2081645738858353118",
+      "author": "predict_anon",
+      "type": "author_reply",
+      "note": "Markets with large spreads and little or no LP can be more relevant than crowded LP markets."
+    },
+    {
+      "id": "2081575443874955398",
+      "author": "predict_anon",
+      "type": "author_reply",
+      "note": "No need to naked buy the high-price side; build low-price inventory first, then quote the other side."
+    },
+    {
+      "id": "2081452317833142314",
+      "author": "predict_anon",
+      "type": "author_reply",
+      "note": "The sports tail strategy ran about 1.5 years and previous profits covered the MLB loss, but competition made it unattractive."
+    },
+    {
+      "id": "2058744800766263494",
+      "author": "predict_anon",
+      "type": "author_reply",
+      "note": "Polymarket volume is share-based; tail sweeping relies on many repetitions and per-trade edge is often around 0.1%-1%."
+    }
+  ],
+  "media": [],
+  "fetched_with": "twitter-cli",
+  "fetched_at": "2026-07-29",
+  "content_type": "multi-source prediction-market microstructure analysis",
+  "archive_files": [
+    "original.md",
+    "meta.json"
+  ],
+  "notes": "Three tweets by the same author were combined because they describe a shared Polymarket microstructure theme: account EV measurement, tail-end queue execution, and low-probability spread making."
+}
