@@ -1,0 +1,66 @@
+{
+  "source": "substack",
+  "source_url": "https://wenli.substack.com/p/cd1",
+  "title": "信念可以被量化吗？一个“信念偏差”的案例",
+  "publication": {
+    "name": "发现叙事",
+    "url": "https://wenli.substack.com",
+    "subdomain": "wenli"
+  },
+  "author": {
+    "name": "肖小跑",
+    "handle": "wenli",
+    "substack_profile": "https://substack.com/@wenli",
+    "id": "59392808"
+  },
+  "post": {
+    "id": "208512816",
+    "canonical_url": "https://wenli.substack.com/p/cd1",
+    "published_at_iso": "2026-07-26T01:56:42+00:00",
+    "published_at_local": "2026-07-26 09:56",
+    "modified_at_iso": "2026-07-26T10:14:08.228Z",
+    "is_accessible_for_free": true,
+    "language": "zh"
+  },
+  "metrics_at_fetch": {
+    "likes": 6,
+    "shares": 1,
+    "comments": 1
+  },
+  "content_type": [
+    "研究框架",
+    "叙事量化",
+    "市场信念观察",
+    "AI分析工作流"
+  ],
+  "topic": "用 MiniMax 与智谱港股解禁案例说明信念结构、叙事退防和价格之间可能存在时间差，并提出 Belief Technical Analysis",
+  "case_summary": {
+    "companies": [
+      "MiniMax",
+      "智谱"
+    ],
+    "comparison": "两家公司同属港股 AI 叙事，解禁时间相隔一天，但智谱解禁日上涨约 13%，MiniMax 解禁日下跌约 18%。",
+    "surface_explanation": "MiniMax 解禁比例接近 49%，智谱约 5.84%，MiniMax 流通盘扩张约 10 倍。",
+    "author_explanation": "MiniMax 在 2026-06-01 M3 发布和调价争议后，市场信念从进攻性叙事退到防守性叙事，提前进入 THE GAP。",
+    "core_concept": "BTA: Belief Technical Analysis",
+    "key_signal": "narrative retreat"
+  },
+  "archive": {
+    "page_html": "page.html",
+    "original_markdown": "original.md",
+    "assets": [
+      {
+        "local_path": "assets/图1.png",
+        "source_url": "https://substack-post-media.s3.amazonaws.com/public/images/4633fac0-4710-4b35-84fa-b137c214c04f_2158x1234.png",
+        "description": "智谱与 MiniMax 价格走势和 Price/Belief 四象限图"
+      },
+      {
+        "local_path": "assets/图2.png",
+        "source_url": "https://substack-post-media.s3.amazonaws.com/public/images/7289ec7e-b8f3-46a3-a619-6bfef2ffe2c3_988x238.png",
+        "description": "进攻性论据和防守性论据在 2026-06-01 换防的示意图"
+      }
+    ]
+  },
+  "fetched_at_local": "2026-07-30",
+  "notes": "原始页面 HTML 和正文图片已归档；original.md 保留结构化摘要而非全文复制。"
+}
