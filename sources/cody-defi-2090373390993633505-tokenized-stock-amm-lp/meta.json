@@ -1,0 +1,88 @@
+{
+  "source": "x",
+  "source_type": "x_tweet_with_quoted_article_context",
+  "title": "Cody_DeFi 链上股票 AMM 做市与相关资产 LP",
+  "author": {
+    "id": "1610353801",
+    "name": "Cody",
+    "screen_name": "Cody_DeFi",
+    "verified": true
+  },
+  "tweet": {
+    "id": "2090373390993633505",
+    "url": "https://x.com/Cody_DeFi/status/2090373390993633505?s=20",
+    "created_at_iso": "2026-08-20T09:40:28+00:00",
+    "created_at_local": "2026-08-20 17:40",
+    "lang": "zh"
+  },
+  "metrics_at_fetch": {
+    "likes": 41,
+    "retweets": 8,
+    "replies": 14,
+    "quotes": 0,
+    "views": 7722,
+    "bookmarks": 43
+  },
+  "quoted_article": {
+    "author": {
+      "name": "Hayden Adams 🦄",
+      "screen_name": "haydenzadams",
+      "id": "702654540387127296",
+      "verified": true
+    },
+    "tweet_id": "2089531754004554215",
+    "tweet_url": "https://x.com/haydenzadams/status/2089531754004554215",
+    "article_url": "https://x.com/i/article/2089523718137466880",
+    "article_title": "Correlated Pairs: How AMMs Win the Biggest Markets",
+    "created_at_local": "2026-08-18 09:56",
+    "metrics_at_fetch": {
+      "likes": 1155,
+      "retweets": 178,
+      "replies": 167,
+      "quotes": 130,
+      "views": 416330,
+      "bookmarks": 857
+    }
+  },
+  "content_type": [
+    "DeFi做市",
+    "链上股票",
+    "AMM LP策略",
+    "RWA市场结构"
+  ],
+  "topic": "用相关资产 AMM pair 降低 tokenized stock 做市的库存成本和无常损失，并评估费用是否足以覆盖 LP 相对持有的损失。",
+  "key_numbers": {
+    "cody_nvda_spy_backtest_period": "3 years",
+    "estimated_terminal_impermanent_loss": "-10.8%",
+    "required_fee_apy_to_catch_up": "11.5%",
+    "uniswap_total_volume_mentioned_by_hayden": "$4.6T",
+    "dex_vs_cex_spot_share_mentioned_by_hayden": "over 20%",
+    "robinhood_chain_tokenized_stock_pools_volume_first_12_days": "$33M",
+    "robinhood_chain_tokenized_stock_pools_traders_first_12_days": "11000+"
+  },
+  "related_replies": [
+    {
+      "id": "2090443887945162769",
+      "author": "Cody_DeFi",
+      "note": "Cody clarifies that impermanent loss is essentially the upside sold away by grid-like LP, while fees are earned during the period."
+    },
+    {
+      "id": "2089560177808728546",
+      "author": "haydenzadams",
+      "note": "Hayden suggests an ETF could be the base pair against individual semiconductor stocks."
+    },
+    {
+      "id": "2089719852374306870",
+      "author": "native_fi",
+      "note": "Critique: LPs remain exposed to delta risk and tokenized stock prices are discovered elsewhere, so correlated pools are still risky."
+    }
+  ],
+  "media": [],
+  "fetched_with": "twitter-cli",
+  "fetched_at_local": "2026-08-20",
+  "archive_files": [
+    "original.md",
+    "meta.json"
+  ],
+  "notes": "twitter article command returned Article not found for the x.com/i/article URL, so original.md preserves structured summaries rather than a full article file."
+}

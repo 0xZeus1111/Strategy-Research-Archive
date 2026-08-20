@@ -160,6 +160,9 @@
 - [`CPPI自我防御型链上借贷：从硬清算悬崖到抵押品动态保险.md`](CPPI自我防御型链上借贷：从硬清算悬崖到抵押品动态保险.md)
   - 总结 `jayesh` 对 CPPI 链上借贷 primitive 的设计提案，重点拆解如何用 `risky exposure = m * cushion` 把抵押品改造成风险资产与稳定币的动态篮子，以及 whipsaw bleed、上行损失、gap risk、hard liquidation backstop 和 options 替代路线。
 
+- [`链上股票AMM做市：相关资产配对、库存偏好与无常损失门槛.md`](链上股票AMM做市：相关资产配对、库存偏好与无常损失门槛.md)
+  - 总结 `Cody_DeFi` 对 Hayden Adams 相关资产 AMM 文章的解读，重点拆解 tokenized stocks 中 `NVDA/SPY` 这类相关资产配对、LP 库存偏好如何降低传统做市对冲成本、`NVDA/SPY` 回测中约 `-10.8%` 无常损失与 `11.5%` 手续费门槛，以及链上股票流动性、非交易时段和 RWA 锚定风险。
+
 ## 因子投资与长期资本
 
 - [`巴菲特Alpha拆解：价值、质量、低贝塔与保险浮存金杠杆.md`](巴菲特Alpha拆解：价值、质量、低贝塔与保险浮存金杠杆.md)
