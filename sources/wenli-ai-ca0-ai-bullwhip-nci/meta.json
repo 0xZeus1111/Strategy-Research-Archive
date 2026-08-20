@@ -1,0 +1,62 @@
+{
+  "source": "substack",
+  "source_url": "https://wenli.substack.com/p/ai-ca0",
+  "title": "【完整版】AI的牛鞭效应非常诡异，但我们能找到它的信号吗？",
+  "publication": {
+    "name": "发现叙事",
+    "url": "https://wenli.substack.com",
+    "subdomain": "wenli"
+  },
+  "author": {
+    "name": "肖小跑",
+    "handle": "wenli",
+    "substack_profile": "https://substack.com/@wenli",
+    "id": "59392808"
+  },
+  "post": {
+    "id": "209080841",
+    "canonical_url": "https://wenli.substack.com/p/ai-ca0",
+    "published_at_iso": "2026-07-30T07:14:11+00:00",
+    "published_at_local": "2026-07-30 15:14",
+    "modified_at_iso": "2026-07-30T07:15:13.021Z",
+    "is_accessible_for_free": false,
+    "language": "zh"
+  },
+  "metrics_at_fetch": {
+    "likes": 18,
+    "shares": 3,
+    "comments": 2
+  },
+  "content_type": [
+    "市场结构",
+    "AI供应链",
+    "牛鞭效应",
+    "叙事量化",
+    "研究框架"
+  ],
+  "topic": "AI 供应链中的牛鞭效应变形：模糊推理需求、隐形库存、怕掉队心理、国家意志放大，以及用 NCI 叙事传染指数测量牛鞭信号的方向。",
+  "access_note": "抓取到的页面 HTML 中可见正文在 NCI 指标说明处截断，未获得完整付费正文。",
+  "archive": {
+    "page_html": "page.html",
+    "original_markdown": "original.md",
+    "assets": [
+      {
+        "local_path": "assets/图1.webp",
+        "source_url": "https://substack-post-media.s3.amazonaws.com/public/images/d31b881c-8222-4ae4-a791-e800280c5aea_1304x1083.webp",
+        "description": "牛鞭隐喻封面图"
+      },
+      {
+        "local_path": "assets/图2.png",
+        "source_url": "https://substack-post-media.s3.amazonaws.com/public/images/b94f324b-65c0-4f73-80e4-2bee70cc0af8_1384x524.png",
+        "description": "AI 供应链七层结构图"
+      },
+      {
+        "local_path": "assets/图3.png",
+        "source_url": "https://substack-post-media.s3.amazonaws.com/public/images/e8069f58-4b49-4c9a-b9af-30956b271b58_1544x824.png",
+        "description": "Alphabet 数据中心租约担保金额上升图"
+      }
+    ]
+  },
+  "fetched_at_local": "2026-08-20",
+  "notes": "原始页面 HTML 和正文图片已归档；original.md 保留可见正文结构化摘要，不复制或补写付费墙后的完整正文。"
+}
