@@ -1,0 +1,87 @@
+{
+  "source": "x",
+  "source_type": "x_tweet",
+  "title": "beiyue66 Robinhood链 Ponds v1 流水庄与FOMO榜单",
+  "author": {
+    "id": "1780945436267720704",
+    "name": "beiyue1",
+    "screen_name": "beiyue66",
+    "verified": true
+  },
+  "tweet": {
+    "id": "2089288325790122322",
+    "url": "https://x.com/beiyue66/status/2089288325790122322?s=20",
+    "created_at_iso": "2026-08-17T09:48:48+00:00",
+    "created_at_local": "2026-08-17 17:48",
+    "lang": "zh"
+  },
+  "metrics_at_fetch": {
+    "likes": 53,
+    "retweets": 7,
+    "replies": 47,
+    "quotes": 0,
+    "views": 10539,
+    "bookmarks": 56
+  },
+  "content_type": [
+    "链上Meme市场结构",
+    "Launchpad排行机制",
+    "流水庄",
+    "执行套利观察"
+  ],
+  "topic": "Robinhood链上Ponds v1老池在v1关闭后仍可被流水庄用于刷FOMO APP Graduated排行榜，作者通过提前扫出老池代币获得比追榜更早的信息位置。",
+  "key_entities": [
+    "Robinhood链",
+    "FOMO APP",
+    "Graduated排行榜",
+    "Ponds v1",
+    "Ponds v2",
+    "Uniswap v4",
+    "Dexscreener"
+  ],
+  "key_numbers": {
+    "ponds_v1_old_pool_scale_mentioned": "几千个",
+    "sol_bundle_launch_cost_mentioned_in_reply": "约3 SOL",
+    "image_width": 565,
+    "image_height": 838
+  },
+  "media": [
+    {
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HP6jfBEaMAAPIJH.png",
+      "local_path": "assets/HP6jfBEaMAAPIJH.png",
+      "width": 565,
+      "height": 838
+    }
+  ],
+  "related_replies": [
+    {
+      "id": "2089345784433316263",
+      "author": "aLiiDeez",
+      "note": "历史类比：主网和BSC也有发币加池、刷Dexscreener榜单、再争取CMC或交易所曝光的流水庄。"
+    },
+    {
+      "id": "2089354253181813052",
+      "author": "beiyue66",
+      "note": "作者补充：现在也有类似结构，但很多已经捆绑发射，不好薅。"
+    },
+    {
+      "id": "2090004379302818073",
+      "author": "beiyue66",
+      "note": "作者补充：SOL榜单多为捆绑发射，成本约3 SOL，开盘后用小额交易刷量，机器人难以抢到筹码。"
+    },
+    {
+      "id": "2089373474779472124",
+      "author": "crycryptor",
+      "note": "评论指出Robinhood上的夹子机器人也是收益层。"
+    }
+  ],
+  "fetched_with": "twitter-cli",
+  "fetched_at_local": "2026-08-21",
+  "archive_files": [
+    "original.md",
+    "meta.json",
+    "assets/HP6jfBEaMAAPIJH.png"
+  ],
+  "notes": "twitter tweet direct output succeeded, but redirecting full JSON to file returned a local Keychain authentication error. Archive therefore preserves structured summary, metadata and media asset rather than full tweet.json."
+}
