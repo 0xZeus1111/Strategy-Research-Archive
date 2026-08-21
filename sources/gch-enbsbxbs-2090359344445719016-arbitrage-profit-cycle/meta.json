@@ -1,0 +1,89 @@
+{
+  "source": "x",
+  "source_type": "x_tweet_with_quoted_tweet",
+  "title": "gch_enbsbxbs 套利利润与行情周期",
+  "author": {
+    "id": "1466028290272079875",
+    "name": "C J",
+    "screen_name": "gch_enbsbxbs",
+    "verified": true
+  },
+  "tweet": {
+    "id": "2090359344445719016",
+    "url": "https://x.com/gch_enbsbxbs/status/2090359344445719016?s=20",
+    "created_at_iso": "2026-08-20T08:44:39+00:00",
+    "created_at_local": "2026-08-20 16:44",
+    "lang": "zh"
+  },
+  "metrics_at_fetch": {
+    "likes": 131,
+    "retweets": 11,
+    "replies": 61,
+    "quotes": 5,
+    "views": 43422,
+    "bookmarks": 110
+  },
+  "quoted_tweet": {
+    "id": "2082649459046134070",
+    "url": "https://x.com/gch_enbsbxbs/status/2082649459046134070",
+    "created_at_iso": "2026-07-30T02:08:19+00:00",
+    "created_at_local": "2026-07-30 10:08",
+    "metrics_at_fetch": {
+      "likes": 104,
+      "retweets": 6,
+      "replies": 74,
+      "quotes": 1,
+      "views": 25999,
+      "bookmarks": 54
+    },
+    "topic": "行情不好时从套利抽资金找标的埋伏，行情来了卖掉标的再转向套利。"
+  },
+  "content_type": [
+    "套利周期观察",
+    "市场情绪指标",
+    "资金轮动方法论"
+  ],
+  "topic": "用套利利润变化观察FOMO资金和价格不对称：利润下滑说明市场冷清、量化互卷，利润暴涨说明非量化资金入场和行情热度后段。",
+  "key_claims": [
+    "套利利润来自FOMO资金造成的价格不对称。",
+    "非量化资金越多，套利利润越容易扩张。",
+    "套利利润暴涨通常是行情热度后段信号。",
+    "套利利润大幅下滑可以被视为市场冷清和建仓研究阶段。",
+    "套利和建仓的资金分配逻辑应当反向调节。"
+  ],
+  "related_replies": [
+    {
+      "id": "2090379712921325846",
+      "author": "gch_enbsbxbs",
+      "note": "作者确认套利利润可理解为来自一部分场外资金不计成本买入。"
+    },
+    {
+      "id": "2090394029385286068",
+      "author": "xiexieyixin",
+      "note": "评论提醒套利利润拉满可能离顶不远，但信号有滞后性，容易误判。"
+    },
+    {
+      "id": "2090403485615612139",
+      "author": "Lovexiaomi1",
+      "note": "评论补充热门空投预期DEX中不计成本刷量也是量化燃料。"
+    },
+    {
+      "id": "2090452620028871131",
+      "author": "huojichuanqi",
+      "note": "评论指出高频做市在市价单多时赚钱明显，行情冷后开机可能亏。"
+    },
+    {
+      "id": "2090674052235194721",
+      "author": "chowsteven",
+      "note": "评论提醒FOMO存在不同时间尺度。"
+    }
+  ],
+  "media": [],
+  "fetched_with": "twitter-cli",
+  "fetched_at_local": "2026-08-21",
+  "archive_files": [
+    "original.md",
+    "meta.json"
+  ],
+  "notes": "twitter status reports local Keychain cookie permission error, but twitter tweet direct reads succeeded for the main and quoted tweets."
+}
