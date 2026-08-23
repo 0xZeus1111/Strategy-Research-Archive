@@ -1,0 +1,89 @@
+{
+  "source": "x",
+  "source_type": "x_article_via_tweet",
+  "title": "币安 ETF 合约套利分析",
+  "author": {
+    "id": "1466901613000359940",
+    "name": "0xJA | Whale.Dance",
+    "screen_name": "JXiaoLoong",
+    "verified": true
+  },
+  "tweet": {
+    "id": "2091190487235584225",
+    "url": "https://x.com/JXiaoLoong/status/2091190487235584225",
+    "created_at_iso": "2026-08-22T15:47:19+00:00",
+    "created_at_local": "2026-08-22 23:47",
+    "lang": "zxx"
+  },
+  "article": {
+    "url": "http://x.com/i/article/2091181501253914624",
+    "title": "币安 ETF 合约套利分析",
+    "fetched_from": "twitter tweet articleText"
+  },
+  "metrics_at_fetch": {
+    "likes": 54,
+    "retweets": 9,
+    "replies": 5,
+    "quotes": 1,
+    "views": 5851,
+    "bookmarks": 98
+  },
+  "content_type": [
+    "价差套利",
+    "币安合约",
+    "杠杆ETF",
+    "RWA衍生品"
+  ],
+  "topic": "币安ETF合约中，杠杆ETF与底层标的的每日涨幅差、周末休市期间缺少AP/NAV锚定以及资金费率差可能形成套利机会。",
+  "key_entities": [
+    "Binance",
+    "ETF",
+    "NAV",
+    "AP",
+    "SNXX",
+    "SNDK",
+    "MUU",
+    "MU",
+    "INTW",
+    "INTC",
+    "MVLL",
+    "MRVL",
+    "SOXL",
+    "SOXS",
+    "TQQQ",
+    "QQQ",
+    "SQQQ",
+    "TMF",
+    "OpenWhale"
+  ],
+  "key_numbers": {
+    "creation_unit_range_mentioned": "20000-100000 shares",
+    "snxx_sndk_intraday_discount_example": "0.4%-0.6%",
+    "snxx_sndk_example_convergence_time": "about 2 hours",
+    "snxx_sndk_example_profit": "about 20u",
+    "weekend_gap_extreme_mentioned": "over 4%",
+    "weekend_waiting_window": "up to about 3 days",
+    "openwhale_weekend_example_profit": "1000+u",
+    "soxl_soxs_failed_convergence_example": "over 1.5% before reset"
+  },
+  "strategy_types": [
+    "leveraged_etf_daily_return_gap_arbitrage",
+    "weekend_tracking_gap_arbitrage",
+    "funding_rate_differential_arbitrage"
+  ],
+  "media": [],
+  "related_replies": [
+    {
+      "id": "2091199160133583068",
+      "author": "JXiaoLoong",
+      "note": "作者回复产品邀请码 7PYTXL。"
+    }
+  ],
+  "fetched_with": "twitter-cli",
+  "fetched_at_local": "2026-08-23",
+  "archive_files": [
+    "original.md",
+    "meta.json"
+  ],
+  "notes": "twitter article command returned Article not found for the x.com/i/article URL, while twitter tweet returned articleTitle and articleText. Archive preserves structured summary and metadata rather than full article markdown."
+}
