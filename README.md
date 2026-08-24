@@ -187,6 +187,9 @@
 - [`链上LP流动性监控器：用Uniswap V3_V4加减仓识别热点与策略者动向.md`](链上LP流动性监控器：用Uniswap%20V3_V4加减仓识别热点与策略者动向.md)
   - 总结 `MonkeyJcck` 对链上 `LP` 监控工具的构想，重点拆解如何用 `Uniswap V3 / V4` 的加减仓、区间展示、短时间计数和告警系统，去更早识别热点与高质量策略者动向。
 
+- [`Uniswap_v4_Hook动态费陷阱：报价模拟、路由盲区与LP收益掠夺.md`](Uniswap_v4_Hook动态费陷阱：报价模拟、路由盲区与LP收益掠夺.md)
+  - 总结 `BlockBloomer` 对 BNB Chain `WBNB/USDC` v4 Hook 池的拆解，重点解释报价模拟显示低费、真实执行收取高 LP fee 如何误导聚合器路由，`12.8%` fee 字段的链上证据、谁真正承担成本，以及用户、聚合器和 LP 如何识别这类可编程 AMM 风险。
+
 ## 预测市场与Polymarket
 
 - [`Polymarket避雷指南：预测市场赚钱难点、执行优势与零售陷阱.md`](Polymarket避雷指南：预测市场赚钱难点、执行优势与零售陷阱.md)

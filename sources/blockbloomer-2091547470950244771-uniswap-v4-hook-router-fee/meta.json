@@ -1,0 +1,135 @@
+{
+  "source": "x",
+  "source_type": "x_tweet_with_quote",
+  "title": "BlockBloomer Uniswap v4 Hook 动态费率与路由盲区",
+  "author": {
+    "id": "1472912375645114368",
+    "name": "青蛙",
+    "screen_name": "BlockBloomer",
+    "verified": true
+  },
+  "tweet": {
+    "id": "2091547470950244771",
+    "url": "https://x.com/BlockBloomer/status/2091547470950244771",
+    "created_at_iso": "2026-08-23T15:25:50+00:00",
+    "created_at_local": "2026-08-23 23:25",
+    "lang": "zh"
+  },
+  "metrics_at_fetch": {
+    "likes": 211,
+    "retweets": 16,
+    "replies": 29,
+    "quotes": 3,
+    "views": 37300,
+    "bookmarks": 221
+  },
+  "quoted_tweet": {
+    "id": "2091354616340652102",
+    "author": {
+      "name": "W3",
+      "screen_name": "w3_888",
+      "id": "1572283797588279298",
+      "verified": true
+    },
+    "created_at_iso": "2026-08-23T02:39:30+00:00",
+    "created_at_local": "2026-08-23 10:39",
+    "metrics_at_fetch": {
+      "likes": 75,
+      "retweets": 5,
+      "replies": 32,
+      "quotes": 0,
+      "views": 21735,
+      "bookmarks": 69
+    },
+    "note": "引用推文称 10万本金一天狂赚几万U，并附 WBNB/USDC v4 池数据截图。"
+  },
+  "content_type": [
+    "DeFi市场微结构",
+    "Uniswap v4 Hook",
+    "路由对抗",
+    "用户防御"
+  ],
+  "topic": "BNB Chain 上 WBNB/USDC Uniswap v4 Hook 池通过报价模拟低费、真实执行高 LP fee 的方式误导聚合器路由，让最终交易者承担高费并把费用转给 LP。",
+  "key_entities": [
+    "BNB Chain",
+    "WBNB",
+    "USDC",
+    "Uniswap v4",
+    "Hook",
+    "PoolManager",
+    "LP Fee",
+    "GeckoTerminal",
+    "BscScan"
+  ],
+  "key_numbers": {
+    "poolmanager_swap_fee_field": "128000",
+    "v4_fee_denominator": "1000000",
+    "actual_lp_fee": "12.8%",
+    "quoted_fee_range_mentioned": "8%-12.8%",
+    "rolling_24h_volume_at_2026_08_23_22_51": "about $10.82M",
+    "rolling_24h_trades_at_2026_08_23_22_51": "16671",
+    "recent_1h_volume_at_mention": "0",
+    "screenshot_24h_volume": "about $11.678M",
+    "screenshot_tvl": "about $105K",
+    "screenshot_total_apr": "507342.22%"
+  },
+  "external_links": {
+    "uniswap_v4_dynamic_fees": "https://developers.uniswap.org/docs/protocols/v4/concepts/dynamic-fees",
+    "representative_transaction": "https://bscscan.com/tx/0x7615dec2ce80506ec461a47739eb8533ac2bc7c605ca56c255964481b76363d0",
+    "geckoterminal_pool_api": "https://api.geckoterminal.com/api/v2/networks/bsc/pools/0x36e5540e9dedc02229fe8a82aa5b10c0bf07d1fa74e4f2ffe0efd00fa1a36aea"
+  },
+  "media": [
+    {
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HQanJUiagAA9wWJ.png",
+      "local_path": "assets/HQanJUiagAA9wWJ.png",
+      "width": 368,
+      "height": 273,
+      "note": "主帖聊天截图。"
+    },
+    {
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HQX7v06bUAAq7vv.jpg",
+      "local_path": "assets/HQX7v06bUAAq7vv.jpg",
+      "width": 1199,
+      "height": 730,
+      "note": "引用推文中的 WBNB/USDC v4 池数据截图。"
+    }
+  ],
+  "related_replies": [
+    {
+      "id": "2091557166629183590",
+      "author": "BlockBloomer",
+      "note": "作者补充 Hook fee 像盲盒，交易者可能随机付到 12%。"
+    },
+    {
+      "id": "2091589177104327100",
+      "author": "pumpwin99",
+      "note": "评论指出该 Hook 可能有白名单，普通人不能添加流动性。"
+    },
+    {
+      "id": "2091604887247474899",
+      "author": "BlockBloomer",
+      "note": "作者确认并提醒即使可以添加也不要加，危险。"
+    },
+    {
+      "id": "2091583178536632338",
+      "author": "w201300",
+      "note": "评论反馈聚合器不识别 v4 池可能导致到手金额大幅减少。"
+    },
+    {
+      "id": "2091566939265200142",
+      "author": "BlockBloomer",
+      "note": "作者回复称不懂技术的用户也能看到 v4 池 Hook 机制。"
+    }
+  ],
+  "fetched_with": "twitter-cli",
+  "fetched_at_local": "2026-08-24",
+  "archive_files": [
+    "original.md",
+    "meta.json",
+    "assets/HQanJUiagAA9wWJ.png",
+    "assets/HQX7v06bUAAq7vv.jpg"
+  ],
+  "notes": "This archive intentionally documents the mechanism from a defensive and market-structure perspective, not as an implementation guide for exploiting router simulation gaps."
+}
