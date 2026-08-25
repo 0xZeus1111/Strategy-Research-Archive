@@ -1,0 +1,31 @@
+原文归档：MengLayer Morpho PT-reUSD 预言机清算事件
+
+作者：@MengLayer（陈小萌）
+原文链接：https://x.com/MengLayer/status/2092149550282891485?s=20
+发布时间：2026-08-25 15:18（Asia/Shanghai）
+抓取工具：twitter-cli
+抓取时互动数据：30 likes，1 retweet，17 replies，0 quotes，6166 views，15 bookmarks
+是否有配图：有，assets/HQjO7M1bAAAKSyp.jpg
+
+结构化摘要：
+
+作者称 Morpho 刚刚清算了 30m+ 的 PT REUSD。原理是预言机攻击：攻击者从 Gate 提取资金后在市场上买入 YT，把市场隐含收益率 IY 短时间推到 20%+，导致 Morpho 池子的 TWAP 价格暴跌。一批接近清算线的循环贷仓位被清算，作者称攻击者通过清算获利约 25wU，并提醒 Loop 有风险，开循环前要看清楚 oracle。
+
+配图摘要：
+
+主帖配图是 All Liquidations 列表，抵押品为 PT-reUSD-10DEC2026，字段包括 Date & Time、Liquidated Wallet、Collateral Seized、Loan Repaid。截图第一页清算集中在 2026-08-25 12:41:35 到 12:48:35，可见页 Loan Repaid 合计约 10.10m USDC。主帖称总规模 30m+，因此截图只是部分清算列表。
+
+关键回复：
+
+- 有读者表示以为 PT 都 hardcode 成线性调整函数，作者回复“不同 pool 不一样”。
+- 有读者说 loop 一直没敢玩，作者回复“这波好多人大意了”。
+- 评论区长回复指出清算发生在 Morpho，不是 Pendle；Pendle 是 PT/YT 交易市场，攻击者在 Pendle 上影响价格输入，Morpho 根据 oracle 价格触发清算。该回复还提到 91.5% LLTV 对应约 2.61% 清算奖励，但主帖没有给出完整链上参数，应作为评论区补充。
+
+官方文档背景：
+
+- Morpho 文档说明，LTV 超过 LLTV 时仓位可被清算，清算人偿还债务并获得抵押品与清算奖励。
+- Pendle 文档说明，PT 代表本金部分，YT 代表收益部分；Pendle PYLpOracle 可用 TWAP implied rate 推导 PT/YT 价格；多数新集成推荐 Linear Discount Oracle 这类更抗操纵、AMM-independent 的 oracle。
+
+归档说明：
+
+twitter status --yaml 在当前环境返回本地 Keychain cookie 权限错误，但 twitter tweet 成功读取主帖、主要回复和图片 URL。配图已保存到 assets/。本归档未做独立链上交易级复核。

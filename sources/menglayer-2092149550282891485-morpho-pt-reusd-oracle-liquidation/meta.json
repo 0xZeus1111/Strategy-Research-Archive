@@ -1,0 +1,141 @@
+{
+  "source": "x",
+  "source_type": "tweet_thread",
+  "title": "MengLayer Morpho PT-reUSD 预言机清算事件",
+  "author": {
+    "id": "1393129082477453315",
+    "name": "陈小萌",
+    "screen_name": "MengLayer",
+    "verified": true
+  },
+  "tweet": {
+    "id": "2092149550282891485",
+    "url": "https://x.com/MengLayer/status/2092149550282891485?s=20",
+    "created_at_iso": "2026-08-25T07:18:17+00:00",
+    "created_at_local": "2026-08-25 15:18",
+    "lang": "zh"
+  },
+  "metrics_at_fetch": {
+    "likes": 30,
+    "retweets": 1,
+    "replies": 17,
+    "quotes": 0,
+    "views": 6166,
+    "bookmarks": 15
+  },
+  "content_type": [
+    "DeFi借贷风险",
+    "预言机操纵",
+    "PT-YT结构",
+    "循环贷清算"
+  ],
+  "topic": "攻击者通过在 Pendle 市场买入 YT 推高隐含收益率，使 PT-reUSD 相关 TWAP oracle 价格下跌，进而触发 Morpho 上靠近清算线的循环贷仓位清算。",
+  "key_entities": [
+    "Morpho",
+    "Pendle",
+    "PT-reUSD-10DEC2026",
+    "PT",
+    "YT",
+    "IY",
+    "TWAP",
+    "Oracle",
+    "LLTV",
+    "LTV",
+    "LIF",
+    "Loop",
+    "USDC",
+    "Gate"
+  ],
+  "key_numbers": {
+    "claimed_total_liquidation": "30m+ PT REUSD",
+    "claimed_attacker_profit": "about 250k USDT/USDC equivalent",
+    "claimed_implied_yield_spike": "20%+",
+    "screenshot_visible_time_window": "2026-08-25 12:41:35 to 12:48:35",
+    "screenshot_visible_loan_repaid_sum": "about 10.10m USDC",
+    "comment_mentioned_lltv": "91.5%",
+    "lif_if_lltv_91_5_percent": "about 1.0262",
+    "liquidation_bonus_if_lltv_91_5_percent": "about 2.62%"
+  },
+  "media": [
+    {
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HQjO7M1bAAAKSyp.jpg",
+      "local_path": "assets/HQjO7M1bAAAKSyp.jpg",
+      "width": 1280,
+      "height": 791,
+      "saved_dimensions": "1200x742"
+    }
+  ],
+  "external_references": [
+    {
+      "label": "Morpho liquidation docs",
+      "url": "https://docs.morpho.org/learn/concepts/liquidation/"
+    },
+    {
+      "label": "Pendle PT docs",
+      "url": "https://docs.pendle.finance/pendle-v2/ProtocolMechanics/YieldTokenization/PT"
+    },
+    {
+      "label": "Pendle YT docs",
+      "url": "https://docs.pendle.finance/pendle-v2/ProtocolMechanics/YieldTokenization/YT"
+    },
+    {
+      "label": "Pendle PYLpOracle docs",
+      "url": "https://docs.pendle.finance/pendle-v2-dev/Contracts/Oracle/PYLpOracle"
+    },
+    {
+      "label": "Pendle PT and LP oracle integration docs",
+      "url": "https://docs.pendle.finance/pendle-v2-dev/Oracles/HowToIntegratePtAndLpOracle"
+    }
+  ],
+  "mechanism_summary": [
+    "攻击者买入 YT，推高市场隐含收益率 IY。",
+    "PT 当前估值随 IY 上升而下降。",
+    "Morpho 市场使用相关 oracle 价格评估 PT-reUSD 抵押品。",
+    "抵押品价格下跌使循环贷仓位 LTV 上升。",
+    "靠近 LLTV 的仓位进入可清算状态。",
+    "清算人偿还债务并按 oracle 价格获得抵押品和清算奖励。"
+  ],
+  "risk_summary": [
+    "PT 到期收敛不等于借贷期间 oracle 价格稳定。",
+    "不同 PT pool 可能使用不同 oracle 设计，不能泛化。",
+    "Loop 杠杆会把短时 oracle 冲击放大成强制清算。",
+    "清算规模和攻击利润来自主帖与评论，本文未做独立交易级复核。"
+  ],
+  "related_replies": [
+    {
+      "id": "2092158295587066294",
+      "author": "trader_alvin",
+      "note": "表示以为 PT 都 hardcode 成线性调整函数。"
+    },
+    {
+      "id": "2092165414067589206",
+      "author": "MengLayer",
+      "note": "作者回复不同 pool 不一样。"
+    },
+    {
+      "id": "2092150235548336342",
+      "author": "fTdDR49OFVlxQAz",
+      "note": "表示一直不敢玩 loop，觉得很脆弱。"
+    },
+    {
+      "id": "2092151764414071158",
+      "author": "MengLayer",
+      "note": "作者回复这波很多人大意了。"
+    },
+    {
+      "id": "2092188195911807167",
+      "author": "w3bD4nny",
+      "note": "长回复区分 Morpho 清算与 Pendle 市场角色，并解释 LLTV、LIF 和清算奖励机制。"
+    }
+  ],
+  "fetched_with": "twitter-cli",
+  "fetched_at_local": "2026-08-25",
+  "archive_files": [
+    "original.md",
+    "original.txt",
+    "meta.json",
+    "assets/HQjO7M1bAAAKSyp.jpg"
+  ],
+  "notes": "twitter status --yaml returned a local Keychain cookie permission error, while twitter tweet successfully returned the main tweet, replies and media URL. Official docs were consulted for background on Morpho liquidation and Pendle PT/YT oracle mechanics. No independent transaction-level verification was performed."
+}

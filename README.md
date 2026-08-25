@@ -163,6 +163,9 @@
 - [`Morpho Midnight固定利率协议：零息凭证、无锁资Offer与链下路由.md`](Morpho%20Midnight固定利率协议：零息凭证、无锁资Offer与链下路由.md)
   - 总结 `bocaibocai_` 对 `Morpho Midnight` 的协议拆解，重点分析固定日历到期、零息凭证、无锁资 `Offer`、执行时 `callback`、消费组和链下路由如何提高资本效率，以及报价可执行性、路由集中化与定期清算风险。
 
+- [`Morpho_PT-reUSD清算事件：Pendle_YT拉升、TWAP预言机与Loop风险.md`](Morpho_PT-reUSD清算事件：Pendle_YT拉升、TWAP预言机与Loop风险.md)
+  - 总结 `MengLayer` 对 `PT-reUSD` 清算事件的说明，重点拆解攻击者如何通过买入 `YT` 推高隐含收益率、压低 PT 相关 TWAP oracle 价格、触发 Morpho 循环贷仓位清算，以及为什么 Loop 前必须先评估 oracle 来源、TWAP 窗口和市场深度。
+
 - [`CPPI自我防御型链上借贷：从硬清算悬崖到抵押品动态保险.md`](CPPI自我防御型链上借贷：从硬清算悬崖到抵押品动态保险.md)
   - 总结 `jayesh` 对 CPPI 链上借贷 primitive 的设计提案，重点拆解如何用 `risky exposure = m * cushion` 把抵押品改造成风险资产与稳定币的动态篮子，以及 whipsaw bleed、上行损失、gap risk、hard liquidation backstop 和 options 替代路线。
 
