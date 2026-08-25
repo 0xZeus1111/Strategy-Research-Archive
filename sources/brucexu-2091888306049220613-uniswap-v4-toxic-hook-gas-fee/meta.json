@@ -1,0 +1,150 @@
+{
+  "source": "x",
+  "source_type": "tweet_thread",
+  "title": "brucexu.eth Uniswap v4 有毒 Hook 与聚合器防御",
+  "author": {
+    "id": "1466675689554202624",
+    "name": "brucexu.eth",
+    "screen_name": "brucexu_eth",
+    "verified": true
+  },
+  "tweet": {
+    "id": "2091888306049220613",
+    "url": "https://x.com/brucexu_eth/status/2091888306049220613?s=20",
+    "created_at_iso": "2026-08-24T14:00:12+00:00",
+    "created_at_local": "2026-08-24 22:00",
+    "lang": "zh"
+  },
+  "quoted_tweet": {
+    "id": "2091547470950244771",
+    "url": "https://x.com/BlockBloomer/status/2091547470950244771",
+    "author": "BlockBloomer",
+    "local_analysis": "../../Uniswap_v4_Hook动态费陷阱：报价模拟、路由盲区与LP收益掠夺.md"
+  },
+  "metrics_at_fetch": {
+    "likes": 140,
+    "retweets": 17,
+    "replies": 34,
+    "quotes": 3,
+    "views": 21160,
+    "bookmarks": 143
+  },
+  "content_type": [
+    "DeFi市场微结构",
+    "聚合器路由安全",
+    "Uniswap v4 Hook",
+    "可编程AMM防御"
+  ],
+  "topic": "恶意 Uniswap v4 动态费率 Hook 可以利用聚合器高 gas eth_call 报价与真实交易 gas envelope 的差异，让 quote 阶段显示低费、execution 阶段收取高 LP fee，造成交易成功但用户到账变少。",
+  "key_entities": [
+    "Uniswap v4",
+    "Hook",
+    "dynamic fee",
+    "PoolManager",
+    "beforeSwap",
+    "eth_call",
+    "amountOutMin",
+    "Relay",
+    "0x BnbSettler",
+    "FOMO",
+    "WBNB",
+    "USDC",
+    "USDT",
+    "BNB Chain",
+    "EnsoBuild"
+  ],
+  "key_numbers": {
+    "runtime_bytecode_size": "about 7191 bytes",
+    "example_swap_event_fee": 128000,
+    "fee_denominator": 1000000,
+    "example_lp_fee_percent": "12.8%",
+    "gas_1000000_fee": "about 10%",
+    "gas_16000000_fee": "about 0.5%",
+    "gas_30000000_fee": "0%",
+    "pre_problem_step_value": "about 5926.9 USDT",
+    "fomo_output": "about 8.536 WBNB",
+    "post_problem_step_output": "about 5169.5 USDC",
+    "stablecoin_value_difference": "about 757.4 USD",
+    "difference_percent": "about 12.779%",
+    "min_amount_out": "about 4742.5 USDC",
+    "actual_output_above_minimum": "about 9%"
+  },
+  "external_links": [
+    {
+      "label": "代表交易",
+      "url": "https://bscscan.com/tx/0x7615dec2ce80506ec461a47739eb8533ac2bc7c605ca56c255964481b76363d0"
+    },
+    {
+      "label": "EnsoBuild 旧案例",
+      "url": "https://x.com/EnsoBuild/status/2077770173793370556"
+    },
+    {
+      "label": "6 月相关旧帖",
+      "url": "https://x.com/ruyasuihe258/status/2092026093763240423"
+    }
+  ],
+  "mechanism_summary": [
+    "聚合器使用高 gas eth_call 模拟报价。",
+    "恶意 Hook 读取执行环境并根据 gas envelope 返回不同 fee override。",
+    "高 gas quote 阶段显示低费率，真实 execution 阶段可能收取高 LP fee。",
+    "amountOutMin 只检查最终输出，不验证中间池 fee 是否和 quote 一致。",
+    "如果最终输出仍高于 minAmountOut，交易成功但用户实际到账变少。"
+  ],
+  "defense_summary": [
+    "同一 calldata 同时做高 gas 与接近真实 gas limit 的模拟。",
+    "对 dynamic-fee pool 和 unknown/unverified Hook 单独分层。",
+    "为实际 LP fee 设置可接受上限。",
+    "执行后核对 Pool ID、Hook、LP fee、actual output 与 quote 的差异。",
+    "发现 quote 低费而 receipt 高费时进入告警、降权、灰名单或黑名单流程。"
+  ],
+  "related_replies": [
+    {
+      "id": "2091894701037433289",
+      "author": "hin_myy",
+      "note": "提到 EnsoBuild 旧帖也讨论过 toxic pool，认为可解释前阵子 aggregator Quote API 偶尔失常。"
+    },
+    {
+      "id": "2091895618079973462",
+      "author": "brucexu_eth",
+      "note": "作者回复认为该漏洞已经出现并被利用很久。"
+    },
+    {
+      "id": "2091923219766985034",
+      "author": "whisker17",
+      "note": "询问 JIT 或 10% slippage 是否能杜绝问题。"
+    },
+    {
+      "id": "2092071546911371732",
+      "author": "brucexu_eth",
+      "note": "作者回复称 10% slippage 不能完全杜绝，很低的 minOut 仍可能让部分量走到毒池，只是损失小一点。"
+    },
+    {
+      "id": "2092005741595124055",
+      "author": "strconvAtoi",
+      "note": "补充 toxic pool 对聚合器是非对称博弈，除 gas 外还可能看 tx.origin、balance、gasLimit 等上下文。"
+    },
+    {
+      "id": "2091894792733040776",
+      "author": "wwardenn",
+      "note": "总结 quote execution mismatch is the real attack surface。"
+    },
+    {
+      "id": "2091911199546056826",
+      "author": "buzhidaoqishala",
+      "note": "提到发交易前通常会在 Geth 上模拟。"
+    },
+    {
+      "id": "2092134530757116404",
+      "author": "luke_bit",
+      "note": "判断这类高集中度币对 Hook 可能是白名单机制。"
+    }
+  ],
+  "fetched_with": "twitter-cli",
+  "fetched_at_local": "2026-08-25",
+  "archive_files": [
+    "original.md",
+    "original.txt",
+    "meta.json"
+  ],
+  "notes": "twitter status --yaml returned a local Keychain cookie permission error, while twitter tweet successfully returned the main tweet, quoted tweet and relevant replies. Archive stores structured summary and metadata; decompiled pseudo-code is intentionally not preserved as executable guidance."
+}

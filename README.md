@@ -190,6 +190,9 @@
 - [`Uniswap_v4_Hook动态费陷阱：报价模拟、路由盲区与LP收益掠夺.md`](Uniswap_v4_Hook动态费陷阱：报价模拟、路由盲区与LP收益掠夺.md)
   - 总结 `BlockBloomer` 对 BNB Chain `WBNB/USDC` v4 Hook 池的拆解，重点解释报价模拟显示低费、真实执行收取高 LP fee 如何误导聚合器路由，`12.8%` fee 字段的链上证据、谁真正承担成本，以及用户、聚合器和 LP 如何识别这类可编程 AMM 风险。
 
+- [`有毒Uniswap_v4_Hook：gas分支、quote执行错配与聚合器防御.md`](有毒Uniswap_v4_Hook：gas分支、quote执行错配与聚合器防御.md)
+  - 总结 `brucexu.eth` 对同一有毒 v4 Hook 案例的聚合器视角补充，重点拆解高 gas `eth_call` 报价为何可能落入低费分支、真实执行为何触发高 LP fee、`amountOutMin` 的保护边界，以及聚合器如何用多环境模拟和 receipt 对账防御 `quote / execution` 错配。
+
 ## 预测市场与Polymarket
 
 - [`Polymarket避雷指南：预测市场赚钱难点、执行优势与零售陷阱.md`](Polymarket避雷指南：预测市场赚钱难点、执行优势与零售陷阱.md)

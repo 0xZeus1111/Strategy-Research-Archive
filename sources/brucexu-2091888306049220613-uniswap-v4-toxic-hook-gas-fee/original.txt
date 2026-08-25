@@ -1,0 +1,34 @@
+原文归档：brucexu.eth Uniswap v4 有毒 Hook 与聚合器防御
+
+作者：@brucexu_eth（brucexu.eth）
+原文链接：https://x.com/brucexu_eth/status/2091888306049220613?s=20
+发布时间：2026-08-24 22:00（Asia/Shanghai）
+抓取工具：twitter-cli
+抓取时互动数据：140 likes，17 retweets，34 replies，3 quotes，21160 views，143 bookmarks
+是否有配图：无
+
+结构化摘要：
+
+这条内容解释一个恶意 Uniswap v4 Hook 如何利用聚合器报价模拟与真实执行之间的环境差异。聚合器用高 gas 的 eth_call 模拟路径时，Hook 可以返回低费率；真实交易以更接近实际的 gas limit 执行时，Hook 则返回高 fee override。最终用户的交易可能仍高于 amountOutMin，所以交易成功，但到账数量明显少于报价预期。
+
+关键点：
+
+- 攻击面不是普通价格滑点，而是 quote 和 execution 规则不一致。
+- 同一 beforeSwap calldata 在不同 gas envelope 下可能返回不同 fee。
+- 作者调查时观察到 gas = 1,000,000 对应约 10%，gas ≈ 16,000,000 对应约 0.5%，gas = 30,000,000 对应 0%。
+- 历史代表交易中的 12.8% 来自 PoolManager 的 Swap event。
+- PoolKey 的 0x800000 是 dynamic-fee flag，不代表 800% 手续费。
+- fee = 128000 按 Uniswap v4 百万分比单位换算为 12.8%。
+- amountOutMin 只检查最终输出底线，不检查中间池 fee 是否和 quote 一致。
+- 代表交易里约 5,926.9 USDT 价值在问题步骤后变成约 5,169.5 USDC，差额约 757.4 美元，约 12.779%，与 12.8% LP fee 基本一致。
+- 该交易 minAmountOut 约 4,742.5 USDC，实际输出仍高于 minimum，因此没有回滚。
+
+外部链接：
+
+- 代表交易：https://bscscan.com/tx/0x7615dec2ce80506ec461a47739eb8533ac2bc7c605ca56c255964481b76363d0
+- EnsoBuild 旧案例：https://x.com/EnsoBuild/status/2077770173793370556
+- 6 月相关旧帖：https://x.com/ruyasuihe258/status/2092026093763240423
+
+归档说明：
+
+twitter status --yaml 在当前环境返回本地 Keychain cookie 权限错误，但 twitter tweet 可以成功读取主帖、引用帖和主要回复。本归档保存结构化摘要和元数据，不保存完整反编译伪代码。
