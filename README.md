@@ -196,6 +196,9 @@
 - [`有毒Uniswap_v4_Hook：gas分支、quote执行错配与聚合器防御.md`](有毒Uniswap_v4_Hook：gas分支、quote执行错配与聚合器防御.md)
   - 总结 `brucexu.eth` 对同一有毒 v4 Hook 案例的聚合器视角补充，重点拆解高 gas `eth_call` 报价为何可能落入低费分支、真实执行为何触发高 LP fee、`amountOutMin` 的保护边界，以及聚合器如何用多环境模拟和 receipt 对账防御 `quote / execution` 错配。
 
+- [`Curve有毒报价池：eth_call默认值、USDC折扣oracle与quote执行错配.md`](Curve有毒报价池：eth_call默认值、USDC折扣oracle与quote执行错配.md)
+  - 总结 `wavey0x` 对 Curve `PB USDC USDT v4a100` 池的链上复盘，重点拆解 USDC rate oracle 如何利用默认 `eth_call` 上下文返回 `48 bps` 折扣价、导致 `USDT -> USDC` 报价系统性高估，以及为什么 `gross quote delta`、用户损害和攻击者 LP 钱包利润必须分开计算。
+
 ## 预测市场与Polymarket
 
 - [`Polymarket避雷指南：预测市场赚钱难点、执行优势与零售陷阱.md`](Polymarket避雷指南：预测市场赚钱难点、执行优势与零售陷阱.md)

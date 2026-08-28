@@ -1,0 +1,51 @@
+原文归档：wavey0x - The Curve Pool That Lies To Quotes
+
+来源链接：https://gist.wavey.info/B4lu8GXEyJQvlu4E5nJuyugF
+raw markdown：https://gist.wavey.info/B4lu8GXEyJQvlu4E5nJuyugF/raw/README.md
+作者：wavey0x
+创建时间：2026-06-24T13:57:30.896Z
+最新编辑：2026-06-24T16:48:32.302Z
+抓取时间：2026-08-28（Asia/Shanghai）
+抓取方式：curl + web open
+正文配图：无
+
+结构化摘要：
+
+原文分析一个名为 PB USDC USDT v4a100 的 Curve USDC/USDT 池。该池表面上像普通稳定币池，但 USDC rate oracle 会根据调用上下文返回不同 rate。常见离线 eth_call 报价环境中，gasPrice = 0 或 tx.origin = address(0) 会触发 48 bps 折扣分支，使 USDC 在 quote 中看起来更便宜；真实交易上下文返回正常 market rate。
+
+主要风险方向：
+
+- USDT -> USDC 是 toxic direction。
+- eth_call 下 get_dy(1000 USDT) 显示约 1002.988043 USDC。
+- transaction context 下同向输出约 998.222250 USDC。
+- 差异约 -47.52 bps。
+- 反方向 USDC -> USDT 的符号相反，eth_call 反而低估交易上下文输出。
+
+关键数据：
+
+- Total pool swaps scanned：124,172。
+- Toxic-direction swaps compared：68,699。
+- USDT sold volume：68.058098M USDT。
+- Actual USDC bought volume：67.926090M USDC。
+- Sum quoted via eth_call：67.980535M USDC。
+- Sum quoted via transaction context：67.863652M USDC。
+- Gross adverse quote delta：225,476.476233 USDC。
+- Signed quote-minus-transaction delta：116,882.591250 USDC。
+- Attacker-wallet net profit：34,592.867249 stable units。
+
+关键地址：
+
+- Curve pool：0xe60B5E323D72a914b089f137eC9b3aB91ae24A65。
+- USDC oracle：0x09e889BE79da10ABe97116Ef1aFCF5A25509FC16。
+- USDT oracle：0xA7Bf5E68d96fc20C4FC95420fe20d69bb1301Da9。
+- Deployer / oracle owner：0x215cB1AECdd7D392F793680017960748174b5Fd6。
+- Linked current largest LP：0x159a7a9c58860bce0ea567d7371fb46ef2fdd9de。
+
+作者区分了损害口径和利润口径：
+
+- 225,476 USDC 是 gross adverse quote delta，用来衡量 toxic direction 中 quote 被高估的空间。
+- 34,592.87 是攻击者相关钱包记账净收益，已经考虑直接 LP 退出、当前 LP 价值、库存、反方向流量和 Curve 价格动态。
+
+归档说明：
+
+原文 raw markdown 已保存为 original.md，页面 HTML 已保存为 page.html。本文没有独立重跑 124,172 笔 swap，也没有重新复核全部钱包归因；数字按原文归档。

@@ -1,0 +1,148 @@
+{
+  "source": "waveygist",
+  "source_type": "gist_markdown",
+  "title": "The Curve Pool That Lies To Quotes",
+  "author": {
+    "name": "wavey0x",
+    "profile_image": "https://github.com/wavey0x.png?size=64"
+  },
+  "gist": {
+    "id": "B4lu8GXEyJQvlu4E5nJuyugF",
+    "url": "https://gist.wavey.info/B4lu8GXEyJQvlu4E5nJuyugF",
+    "raw_url": "https://gist.wavey.info/B4lu8GXEyJQvlu4E5nJuyugF/raw/README.md",
+    "primary_file": "README.md",
+    "created_at_iso": "2026-06-24T13:57:30.896Z",
+    "created_at_local": "2026-06-24 21:57",
+    "updated_at_iso": "2026-06-24T16:48:32.302Z",
+    "updated_at_local": "2026-06-25 00:48",
+    "latest_revision_number": 24,
+    "snapshot_sha256": "d19f9c381a5c4e139cad3e75be6b8a3761c0a0e41dde6d9df8ec82f70ab472ae",
+    "content_sha256": "d04df38cbe84e36c0841df6baba0de6ee053b5a81210744333608ed6c15f2a64",
+    "raw_file_byte_size": 8363
+  },
+  "content_type": [
+    "DeFi市场微结构",
+    "Curve rate oracle",
+    "toxic liquidity",
+    "聚合器报价安全"
+  ],
+  "topic": "Curve USDC/USDT 池通过上下文敏感的 USDC rate oracle，让默认 eth_call 报价进入 48 bps 折扣分支，而真实交易上下文使用正常 rate，导致 USDT -> USDC quote 系统性高估输出。",
+  "key_entities": [
+    "Curve",
+    "Stableswap-NG",
+    "PB USDC USDT v4a100",
+    "USDC",
+    "USDT",
+    "rate oracle",
+    "eth_call",
+    "tx.origin",
+    "gasPrice",
+    "stored_rates",
+    "get_dy",
+    "Chainlink-like feed"
+  ],
+  "key_addresses": {
+    "curve_pool": "0xe60B5E323D72a914b089f137eC9b3aB91ae24A65",
+    "usdc_oracle": "0x09e889BE79da10ABe97116Ef1aFCF5A25509FC16",
+    "usdt_oracle": "0xA7Bf5E68d96fc20C4FC95420fe20d69bb1301Da9",
+    "deployer_oracle_owner": "0x215cB1AECdd7D392F793680017960748174b5Fd6",
+    "linked_current_largest_lp": "0x159a7a9c58860bce0ea567d7371fb46ef2fdd9de",
+    "usdc_price_feed": "0x8fFfFfd4AfB6115b954Bd326cbe7B4BA576818f6",
+    "usdt_price_feed": "0x3E7d1eAB13ad0104d2750B8863b489D65364e32D"
+  },
+  "key_numbers": {
+    "usdc_oracle_discount_bps": 48,
+    "usdt_oracle_discount_bps": 0,
+    "usdc_rate_discount_context": "0.994871584",
+    "usdc_rate_transaction_context": "0.999670000",
+    "stored_rates_eth_call": [
+      "0.994871584",
+      "0.99872873"
+    ],
+    "stored_rates_transaction_context": [
+      "0.99967",
+      "0.99872873"
+    ],
+    "get_dy_1000_usdt_to_usdc_eth_call": "1002.988043 USDC",
+    "get_dy_1000_usdt_to_usdc_transaction_context": "998.222250 USDC",
+    "usdt_to_usdc_difference": "-47.52 bps",
+    "get_dy_1000_usdc_to_usdt_eth_call": "995.322982 USDT",
+    "get_dy_1000_usdc_to_usdt_transaction_context": "1000.074945 USDT",
+    "usdc_to_usdt_difference": "+47.74 bps",
+    "total_pool_swaps_scanned": 124172,
+    "toxic_direction_swaps_compared": 68699,
+    "usdt_sold_volume": "68.058098M USDT",
+    "actual_usdc_bought_volume": "67.926090M USDC",
+    "sum_quoted_via_eth_call": "67.980535M USDC",
+    "sum_quoted_via_transaction_context": "67.863652M USDC",
+    "gross_adverse_quote_delta": "225,476.476233 USDC",
+    "signed_quote_minus_transaction_delta": "116,882.591250 USDC",
+    "opposite_direction_gross_delta": "223,957.960803 USDT",
+    "deployer_combined_lp_net": "+29,945.835796 stable units",
+    "linked_lp_marked_current_net": "+4,647.031453 stable units",
+    "combined_attacker_wallets_net": "+34,592.867249 stable units"
+  },
+  "external_references": [
+    {
+      "label": "Original gist",
+      "url": "https://gist.wavey.info/B4lu8GXEyJQvlu4E5nJuyugF"
+    },
+    {
+      "label": "Raw markdown",
+      "url": "https://gist.wavey.info/B4lu8GXEyJQvlu4E5nJuyugF/raw/README.md"
+    },
+    {
+      "label": "Curve Stableswap-NG source",
+      "url": "https://github.com/curvefi/stableswap-ng/blob/main/contracts/main/CurveStableSwapNG.vy"
+    },
+    {
+      "label": "Curve pool",
+      "url": "https://etherscan.io/address/0xe60B5E323D72a914b089f137eC9b3aB91ae24A65"
+    },
+    {
+      "label": "USDC oracle",
+      "url": "https://etherscan.io/address/0x09e889BE79da10ABe97116Ef1aFCF5A25509FC16"
+    },
+    {
+      "label": "USDT oracle",
+      "url": "https://etherscan.io/address/0xA7Bf5E68d96fc20C4FC95420fe20d69bb1301Da9"
+    },
+    {
+      "label": "Deployer / oracle owner",
+      "url": "https://etherscan.io/address/0x215cB1AECdd7D392F793680017960748174b5Fd6"
+    },
+    {
+      "label": "Linked current largest LP",
+      "url": "https://etherscan.io/address/0x159a7a9c58860bce0ea567d7371fb46ef2fdd9de"
+    }
+  ],
+  "mechanism_summary": [
+    "Curve pool relies on external rate oracle adapters.",
+    "USDC oracle returns a 48 bps discounted rate under common eth_call quote defaults.",
+    "Real transaction context returns normal market rate.",
+    "USDT -> USDC eth_call quote overpromises USDC output relative to transaction-context pricing.",
+    "USDC -> USDT direction has the opposite sign and is not the primary victim-loss direction."
+  ],
+  "risk_summary": [
+    "This is a quote/execution mismatch case, not a generic Curve failure.",
+    "Gross adverse quote delta measures deception surface and should not be treated as attacker PnL.",
+    "Attacker wallet profit depends on LP accounting, inventory, opposite-direction flow and current LP value.",
+    "Analysis here does not independently rescan all swaps or re-attribute wallets."
+  ],
+  "local_related_documents": [
+    "../../Uniswap_v4_Hook动态费陷阱：报价模拟、路由盲区与LP收益掠夺.md",
+    "../../有毒Uniswap_v4_Hook：gas分支、quote执行错配与聚合器防御.md"
+  ],
+  "fetched_with": [
+    "web.open",
+    "curl"
+  ],
+  "fetched_at_local": "2026-08-28",
+  "archive_files": [
+    "original.md",
+    "original.txt",
+    "page.html",
+    "meta.json"
+  ],
+  "notes": "original.md stores the raw markdown fetched from the gist raw URL. page.html stores the rendered page HTML. This archive preserves the author's claims and numbers; no independent full on-chain rescan was performed."
+}
