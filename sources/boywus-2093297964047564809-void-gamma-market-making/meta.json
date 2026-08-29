@@ -1,0 +1,36 @@
+{
+  "title": "从最笨的做市商做起，最后去卖可乐",
+  "author": {
+    "id": "730205023620071424",
+    "name": "Boywus",
+    "screenName": "Boywus"
+  },
+  "published_local": "2026-08-28 19:21",
+  "published_utc_source": "Fri Aug 28 11:21:40 +0000 2026",
+  "status_url": "https://x.com/Boywus/status/2093297964047564809",
+  "article_url": "https://x.com/i/article/2093272200015175680",
+  "source_type": "x_article_via_status",
+  "tweet_id": "2093297964047564809",
+  "top_level_media_count": 0,
+  "metrics_at_capture": {
+    "likes": 306,
+    "retweets": 47,
+    "replies": 15,
+    "quotes": 8,
+    "views": 70957,
+    "bookmarks": 588
+  },
+  "notable_replies": [
+    {
+      "id": "2093332300499128723",
+      "author": "@Boywus",
+      "summary": "作者回应“低级 MM 靠仓位控制、高级期权做市商能否从一开始控制看错标的风险”时表示，理论上有道理，但实务上标的筛选是前置的。"
+    },
+    {
+      "id": "2093306214818144417",
+      "author": "@Boywus",
+      "summary": "作者回应大空驴近况，非正文核心信息。"
+    }
+  ],
+  "notes": "顶层推文只有 X Article 链接。正文把固定距离做市、Gamma Scalping、网格和期权做市统一到“价格变化后目标库存如何变化”的框架下，并用“虚空 Gamma”和“可乐工厂”解释线性资产、非线性 payoff 与做市商生产成本。"
+}

@@ -1,0 +1,47 @@
+Defense on Warsh：通胀的二阶传导
+
+Author: @AntonLaVay (Manchurius Hao — Greeks.live 首席赌狗)
+Published: 2026-08-29 07:53
+Status URL: https://x.com/AntonLaVay/status/2093487106458878233
+Article URL: https://x.com/i/article/2093475441193406464
+Source Type: X link post + X Article
+Capture Tool: twitter-cli
+
+顶层推文：
+https://t.co/Jr6dOY3K7f
+
+正文：
+我不认同 Warsh 是所谓“假鹰”。Jackson Hole 之后，“Warsh 只是一个假鹰”的观点充斥社交网络。作者不知道 Warsh 未来会不会在压力面前转鸽，但至少以现在的信息来看，认为市场嘲笑他的通胀担忧可能太早。
+
+作者认为原因不只是“最近柴油涨了”“小麦涨了”，而是应该重新理解“通胀的二阶传导”。
+
+一次能源冲击最开始是一阶影响：Diesel ↑ → Energy CPI ↑。随后是间接一阶影响：柴油上涨会推高农业机械成本、运输、加工、仓储和食品/商品生产成本。
+
+作者引用 ECB 的区分：前面这些仍是原始能源冲击沿产业链传递；真正的 second-round effects 发生在企业、劳动者和消费者开始改变行为之后，即企业重设价格和利润目标、劳动者要求工资补偿、消费者提高通胀预期，最终让局部能源/食品通胀变成 generalized inflation。
+
+作者强调这个过程未必线性。冲击幅度更大、持续时间更长时，价格和工资反应可能加速。柴油上涨 20% 持续两周，与柴油上涨 20% 持续六个月，不是简单的时间倍数关系。后者会让企业把它视为新的成本基准，并修改合同、产品报价、运输费、工资预算和长期商业计划。
+
+作者因此关注的不是“价格涨了多少”，而是“价格在高位待了多久”，即 Persistence。
+
+粮食部分：如果只是小麦突然涨 30%，作者不会因此认为美国通胀要重新失控，因为粮食在最终食品成本中的占比并不如很多人想象得高，企业还有库存、利润率和套保等缓冲层。真正的问题是 Food Cost Structure 中多个成本节点同时受到冲击。
+
+食品链大致包括 agricultural commodity、农业投入、processing、inland freight、ocean freight、warehousing、retail / restaurant、consumer。作者认为现在这条链上越来越多节点同时出现问题。
+
+作者更关注玉米而非单纯小麦，因为玉米是 feed grain，可通过 feed 传导到鸡、猪、牛、蛋、奶和更广泛食品通胀。中国天气风险可能影响玉米 yield / quality，若国产玉米品质下降，饲料企业可能增加 feed grain 进口，而这不一定表现为单独进口 corn，也可能通过 sorghum、barley、feed wheat 替代关系表现出来。
+
+供给端则出现 Black Sea 问题。作者认为俄罗斯和乌克兰并不是没有小麦，而是 deliverable grain 变稀缺：Greater Odesa 港口受攻击后，粮食被迫转向 Danube，但 Danube 无法无损替代 Odesa。由此带来 ocean freight、war insurance、waiting time 和 alternative origin premium 上升。
+
+第三个变量是柴油。粮食从农场、粮仓、加工厂、distribution center 到超市补货，都需要柴油。作者认为美国运输企业通过 fuel surcharge 转移高燃料成本，意味着 diesel 已经开始从 commodity price 进入 corporate pricing，这是从一次能源冲击走向更广泛价格传导的中间桥梁。
+
+作者最终关注的不是 Corn、Wheat 或 Diesel 任一 ticker，而是结构：China weather 可能增加 feed grain 需求，Black Sea disruption 降低全球可交付粮源，diesel 推高农业、processing、trucking 成本，ocean freight + insurance 推高全球粮食到岸成本，最终让 food producer cost base 上升，并传导到 retail / restaurant pricing。如果持续足够久，就可能引发 wage demands / inflation expectations 上升，形成 second-round inflation。
+
+Warsh 部分：作者认为 Warsh 在 Jackson Hole 讲话中真正值得注意的是 reaction function，不是是否暗示 9 月加息。原文称 Warsh 提到 PCE 同比 3.7%、过去六个月年化 4.1%、199 个 PCE 分项中 54% 过去 12 个月涨幅超过 3%，并认为除非 underlying inflation 以 clear and sufficient speed 向 2% 移动，否则 Fed “还有工作要做”。
+
+作者认为央行真正害怕的不是小麦当天涨 5%，而是上游价格持续足够久后，企业和人的行为发生改变。作者也承认，按原文引用的 ECB 截至 7 月判断，目前还没有充分证据说明二阶效应已经嵌入工资和国内价格动态。作者的判断是：二阶通胀还没有发生，但越来越多前置条件正在同一个时间窗口里出现。
+
+一句话：价格上涨本身未必制造二阶通胀，但价格上涨得足够久，会改变人的行为；当企业重新定价、劳动者要求补偿、消费者重新形成通胀预期时，我们面对的就可能不再是一场 commodity shock，而是新的 inflation regime。
+
+评论区补充：
+@Corsica267：我也不觉得是假鹰。我觉得他说不处理长债这一块儿，其实就是和财政部勾兑过交过底了。还是有一次的可能的。
+@AntonLaVay 回复 @DaBao250：以及这个时候再回看一下 Michael Burry 的仓位，回测一下 Michael Burry 和各位伟大的 KOL 的推文，看看到底是谁厉害。
+@YangJerry197020：作者论述主要聚焦在 Fed 主席不应忽视通胀，而认为 Warsh 是假鹰的人更多聚焦于政治约束。

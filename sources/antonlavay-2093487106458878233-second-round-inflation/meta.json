@@ -1,0 +1,41 @@
+{
+  "title": "Defense on Warsh：通胀的二阶传导",
+  "author": {
+    "id": "3314942552",
+    "name": "Manchurius Hao — Greeks.live 首席赌狗",
+    "screenName": "AntonLaVay"
+  },
+  "published_local": "2026-08-29 07:53",
+  "published_utc_source": "Fri Aug 28 23:53:15 +0000 2026",
+  "status_url": "https://x.com/AntonLaVay/status/2093487106458878233",
+  "article_url": "https://x.com/i/article/2093475441193406464",
+  "source_type": "x_article_via_status",
+  "tweet_id": "2093487106458878233",
+  "top_level_media_count": 0,
+  "metrics_at_capture": {
+    "likes": 87,
+    "retweets": 5,
+    "replies": 11,
+    "quotes": 0,
+    "views": 17393,
+    "bookmarks": 74
+  },
+  "notable_replies": [
+    {
+      "id": "2093508750472872362",
+      "author": "@Corsica267",
+      "summary": "评论认为 Warsh 未必是假鹰，并猜测其“不处理长债”可能与财政部流动性安排有关。"
+    },
+    {
+      "id": "2093497647071924472",
+      "author": "@AntonLaVay",
+      "summary": "作者回应其他 KOL 多认为不会真加息时，提醒可以回看 Michael Burry 的仓位，并把其与 KOL 推文做回测比较。"
+    },
+    {
+      "id": "2093519336283758750",
+      "author": "@YangJerry197020",
+      "summary": "评论提出反方视角：作者论证聚焦通胀和央行职责，而“假鹰”判断更多来自政治约束。"
+    }
+  ],
+  "notes": "顶层推文只有 X Article 链接。正文为宏观通胀观察框架：作者反驳“Warsh 只是伪鹰”的流行判断，强调能源、粮食、运费、保险和企业定价行为的持续性可能形成通胀二阶传导。文中 Reuters、ECB、Federal Reserve 相关信息未在本仓库中独立核验。"
+}
