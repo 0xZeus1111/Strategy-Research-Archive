@@ -1,0 +1,50 @@
+{
+  "title": "套利交易者提问总结：价差套利的监控、锚定与执行",
+  "author": {
+    "id": "730205023620071424",
+    "name": "Boywus",
+    "screenName": "Boywus"
+  },
+  "published_local": "2025-11-12 13:45",
+  "published_utc_source": "Wed Nov 12 05:45:28 +0000 2025",
+  "status_url": "https://x.com/Boywus/status/1988483261182673312?s=20",
+  "source_type": "x_long_post_with_quote",
+  "tweet_id": "1988483261182673312",
+  "top_level_media_count": 0,
+  "metrics_at_capture": {
+    "likes": 137,
+    "retweets": 18,
+    "replies": 16,
+    "quotes": 3,
+    "views": 26567,
+    "bookmarks": 164
+  },
+  "quoted_tweet": {
+    "id": "1988468996493242880",
+    "author": "@dan326714",
+    "summary": "引用推文认为套利和交易本质没有区别，套利是高胜率、低盈亏比交易，核心仍是执行、等待、仓位管理和风控。"
+  },
+  "notable_replies": [
+    {
+      "id": "1988541482354254096",
+      "author": "@Boywus",
+      "summary": "作者解释 monitor 可以理解为监控程序。"
+    },
+    {
+      "id": "1988533183114072477",
+      "author": "@Boywus",
+      "summary": "作者回应中心化交易所合约套利利润极低时，认为 perp DEX 上仍有一定空间。"
+    },
+    {
+      "id": "1988531419514298433",
+      "author": "@robustdragon",
+      "summary": "评论补充 Binance 和 OKX 合约套利空间已经很小，双边成交、单腿、滑点、maker/taker 手续费与平仓方式都会吞噬利润。"
+    },
+    {
+      "id": "1988503947976601728",
+      "author": "@ChainChainYummy",
+      "summary": "评论认为跨所套利看起来简单、会代码即可上手，但实际最容易踩坑；其引用推文进一步讨论 perp-dex 做市、网格、资金费套利、LP 与积分交互风险。"
+    }
+  ],
+  "notes": "主帖围绕价差套利给出四个核心要求：快速监控价差来源、想清收敛/发散逻辑、确认锚定强度、按订单簿冲击成本优化执行。无媒体。"
+}
