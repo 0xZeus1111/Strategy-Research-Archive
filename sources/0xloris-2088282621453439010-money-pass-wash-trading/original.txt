@@ -1,0 +1,43 @@
+Money Pass / Wash Trading 异常交易线索归档
+
+Author: @0xLoris (Loris)
+Published: 2026-08-14 23:12
+Status URL: https://x.com/0xloris/status/2088282621453439010?s=52
+Source Type: X long post with quoted tweet and media
+Capture Tool: twitter-cli
+
+合规处理说明：
+原帖讨论的是通过非竞争性或非经济性交易在账户之间转移价值的行为。该类行为在监管语境中可能涉及 money pass、wash trading、fictitious sales、市场操纵、虚假交易量和 AML 风险。
+
+为避免把材料整理成非法资金转移教程，本归档不复写原帖里的逐步操作描述，只保存原帖主题、相关图像、引用推文语境、作者后续补充、评论区对监管 precedent 和归因难点的补充，以及官方可核验参考资料。
+
+主帖非操作性摘要：
+作者提出一个观察问题：这类通过亏损性、非经济性交易把价值从一个账户转移到另一个账户的现象，在中心化交易所上很难外部分析，但在 Hyperliquid / HL 这类更透明的链上或准链上订单簿环境中更容易观察。
+
+主帖用一个薄流动性市场的异常成交作为例子，说明某些账户可能通过有意承受负收益的来回成交，把资金价值转移给另一侧账户。作者特别声明该内容仅供信息分析，不是洗钱建议。
+
+之后作者回顾了 FTX 崩盘期间的一段传闻：当时部分提款通道受限，拥有特定可提款条件的账户可能成为资金逃离路径；一些陷入困境的机构据称通过可信对手方、异常非经济性交易或高价 NFT 交易，把被限制账户中的价值转到可提款账户。该部分为作者个人听闻，未在本归档中独立核验。
+
+引用推文：
+@Versace_Trader 称 AVGO/USDC spot Broadcom 市场出现疑似洗钱 / 异常资金转移现象，并以“500 -> 119k”的金额变化作为观察线索。
+
+作者后续补充：
+1. 作者补充称，CFTC 执法术语中这类行为 apparently 被称为 money pass，并附图说明该术语通常指通过预先安排或虚构交易，让一方有意亏损、另一方获得资金的非法非竞争性交易安排。
+2. 有读者说这在 CEX 上也可以发生。作者回应：the analysis / wallet attribution is difficult, not the execution of course。也就是说，中心化交易所内部当然可能发生类似非经济性成交，但外部观察者很难获得账户归因、订单归属和内部 KYC 关系。
+3. 有读者问是否可以通过“稀有 NFT”在两个账户间转移价值。作者回复说这个点已经在主帖中，并附一张原帖截图。这里同样只作为异常价值转移路径的风险提示，不展开操作。
+
+图片归档：
+assets/HPsRJ1TaIAAi2ex.jpg - FTX Privacy Index December 2022 Futures 的 TradingView 截图，标注 2022-11-10 的异常成交、估算成交量、负套利比例和可能转移资金规模。
+assets/HPsTZkdaIAAtJTk.jpg - money pass 定义截图，说明其为非法、非竞争性交易安排。
+assets/HPsVTDUbQAElVry.jpg - 表达合规风险的梗图。
+assets/HPs1YFEWAAAYlGS.png - 作者回复中截取原帖关于 NFT 路径的片段。
+
+评论区关键补充：
+@0xkuncoro 指出，CFTC 对类似模式已有执法 precedent，包括 TeraExchange 的比特币 swap wash trade，以及 Coinbase 在 2021 年与 CFTC 达成的 650 万美元和解。
+@HungHideki 提醒，有些类似异常也可能是 API key 被盗后账户被抽走资金，不能直接归因为主动洗钱。
+有评论称类似现象在 memecoin 生态里也不少见，但没有提供可核验证据。
+
+外部参考：
+CFTC Release 7403-16: https://www.cftc.gov/PressRoom/PressReleases/7403-16
+CFTC speech on digital asset derivatives enforcement: https://www.cftc.gov/PressRoom/SpeechesTestimony/opamcginley1
+CFTC Release 8369-21 on Coinbase: https://www.cftc.gov/PressRoom/PressReleases/8369-21

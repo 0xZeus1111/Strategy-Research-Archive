@@ -1,0 +1,96 @@
+{
+  "title": "Money pass and wash trading as on-chain market surveillance problem",
+  "author": {
+    "id": "1595502771351920640",
+    "name": "Loris",
+    "screenName": "0xLoris"
+  },
+  "published_local": "2026-08-14 23:12",
+  "published_utc_source": "Fri Aug 14 15:12:30 +0000 2026",
+  "status_url": "https://x.com/0xloris/status/2088282621453439010?s=52",
+  "source_type": "x_long_post_with_quote_and_media",
+  "tweet_id": "2088282621453439010",
+  "top_level_media_count": 1,
+  "metrics_at_capture": {
+    "likes": 420,
+    "retweets": 18,
+    "replies": 21,
+    "quotes": 3,
+    "views": 41312,
+    "bookmarks": 315
+  },
+  "quoted_tweet": {
+    "id": "2088247646997839888",
+    "author": "@Versace_Trader",
+    "summary": "引用推文称 AVGO/USDC spot Broadcom 市场出现疑似洗钱/异常资金转移案例，并附图说明金额变化。"
+  },
+  "media": [
+    {
+      "tweet_id": "2088282621453439010",
+      "url": "https://pbs.twimg.com/media/HPsRJ1TaIAAi2ex.jpg",
+      "local_path": "assets/HPsRJ1TaIAAi2ex.jpg",
+      "description": "FTX Privacy Index December 2022 Futures 的 TradingView 截图，标注 2022-11-10 异常成交、5.4% negative arb round trip 和估算资金转移。"
+    },
+    {
+      "tweet_id": "2088284210838798620",
+      "url": "https://pbs.twimg.com/media/HPsTZkdaIAAtJTk.jpg",
+      "local_path": "assets/HPsTZkdaIAAtJTk.jpg",
+      "description": "关于 CFTC enforcement term money pass 的搜索/AI 摘要截图，说明其为非法非竞争性交易安排。"
+    },
+    {
+      "tweet_id": "2088286275145240989",
+      "url": "https://pbs.twimg.com/media/HPsVTDUbQAElVry.jpg",
+      "local_path": "assets/HPsVTDUbQAElVry.jpg",
+      "description": "表达合规风险的梗图。"
+    },
+    {
+      "tweet_id": "2088321556711608829",
+      "url": "https://pbs.twimg.com/media/HPs1YFEWAAAYlGS.png",
+      "local_path": "assets/HPs1YFEWAAAYlGS.png",
+      "description": "作者回复中截取原帖关于 NFT 路径的片段，用于说明该内容在主帖已出现。"
+    }
+  ],
+  "notable_replies": [
+    {
+      "id": "2088284210838798620",
+      "author": "@0xLoris",
+      "summary": "作者补充 CFTC 执法语境中相关术语是 money pass，并附定义截图。"
+    },
+    {
+      "id": "2088286275145240989",
+      "author": "@0xLoris",
+      "summary": "作者补充梗图，强化该行为的合规风险。"
+    },
+    {
+      "id": "2088363403383586895",
+      "author": "@0xLoris",
+      "summary": "作者回应称，在 CEX 上难点不是执行，而是分析和钱包归因。"
+    },
+    {
+      "id": "2088290997008560400",
+      "author": "@0xkuncoro",
+      "summary": "评论指出 CFTC 曾有 TeraExchange 比特币 swap wash trade 案例，以及 Coinbase 在 2021 年以 650 万美元和解 wash trading 事项。"
+    },
+    {
+      "id": "2088692109674938500",
+      "author": "@HungHideki",
+      "summary": "评论提醒，类似异常也可能是 API key 被盗后资金被转走，不一定都能直接归因为主动洗钱。"
+    }
+  ],
+  "external_references": [
+    {
+      "title": "CFTC Release 7403-16: Money pass scheme involving single stock futures",
+      "url": "https://www.cftc.gov/PressRoom/PressReleases/7403-16"
+    },
+    {
+      "title": "CFTC speech: TeraExchange wash trading in Bitcoin swap",
+      "url": "https://www.cftc.gov/PressRoom/SpeechesTestimony/opamcginley1"
+    },
+    {
+      "title": "CFTC Release 8369-21: Coinbase false reporting and wash trading settlement",
+      "url": "https://www.cftc.gov/PressRoom/PressReleases/8369-21"
+    }
+  ],
+  "compliance_note": "原帖包含可被用于洗钱或非法资金转移的操作性描述。本归档和分析仅保留合规、市场监控、异常检测和案例研究所需信息，不复写可执行步骤。",
+  "notes": "主帖以 AVGO/USDC 和 FTX 崩盘期间异常交易为背景，讨论通过非经济性成交在账户之间转移价值的可观测性问题。作者强调这是 informational, not laundering advice。"
+}
