@@ -144,6 +144,9 @@
 - [`永续合约十年进化史：从312、ADL与保险基金到数据盘的结构性漏洞.md`](永续合约十年进化史：从312、ADL与保险基金到数据盘的结构性漏洞.md)
   - 总结 `agintender` 对永续合约十年演进的长文，重点拆解标记价格、保险基金、`ADL`、`U` 本位、组合保证金、`TRB / ALPACA` 事件，以及问题如何从合约公式转移到高 `FDV` 低流通代币与指数污染。
 
+- [`Stock_Perp休市定价：Impact_Price、EWMA、Mark护栏与清算反馈环.md`](Stock_Perp休市定价：Impact_Price、EWMA、Mark护栏与清算反馈环.md)
+  - 总结 `agintender` 对 Binance 与 Bitget 股票永续休市定价算法的拆解，重点解释 `Impact Price → EWMA / EMA → Index → Mark` 如何运作，以及本地订单簿、动态护栏和清算系统如何形成可能自我放大的反馈环。
+
 - [`熊市项目方自救指南：用永续合约资金费率与双向借贷机制创造流动性.md`](熊市项目方自救指南：用永续合约资金费率与双向借贷机制创造流动性.md)
   - 总结 `agintender` 关于熊市项目方库存管理的长文，重点拆解 `token loan + call option` 的隐性成本、`alt perp funding` 如何回流给持币人，以及正向借币池和反向抵押池组成的双向机制。
 
@@ -180,6 +183,9 @@
 
 - [`链上股票AMM做市：相关资产配对、库存偏好与无常损失门槛.md`](链上股票AMM做市：相关资产配对、库存偏好与无常损失门槛.md)
   - 总结 `Cody_DeFi` 对 Hayden Adams 相关资产 AMM 文章的解读，重点拆解 tokenized stocks 中 `NVDA/SPY` 这类相关资产配对、LP 库存偏好如何降低传统做市对冲成本、`NVDA/SPY` 回测中约 `-10.8%` 无常损失与 `11.5%` 手续费门槛，以及链上股票流动性、非交易时段和 RWA 锚定风险。
+
+- [`bStock与股票永续的定价权：Perp价格发现、库存层与Borrow双向纠错.md`](bStock与股票永续的定价权：Perp价格发现、库存层与Borrow双向纠错.md)
+  - 总结 `agintender` 对 `25` 次闭市—重开样本、股票永续高频成交和 bStock 产品栈的分析，区分成交量与价格领导，重点拆解 `Perp` 如何生产候选价格、bStock 如何承载库存，以及 `Borrow / Conversion` 为什么决定双向纠错和定价权能否成立。
 
 ## 因子投资与长期资本
 
